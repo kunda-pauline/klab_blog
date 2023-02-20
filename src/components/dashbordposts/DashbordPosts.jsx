@@ -28,7 +28,7 @@ export default function DashbordPosts({blogs}) {
 
     await axios.put(`https://blogzilha-piyj.onrender.com/api/stories/${selected._id}`,formData,{
       headers:{
-        "content-Type":"multipart/form-data",
+        "content-Type":"application/json",
         Authorization: `Bearer ${localStorage.getItem('token')}` 
       }
     
