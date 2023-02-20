@@ -1,0 +1,121 @@
+.write {
+  padding-top: 50px;
+}
+
+.writeImg {
+  margin-left: 0px;
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.mai{
+  width:900px;
+  /* background-color:aqua; */
+  margin-left:400px;
+  height:600px;
+  margin-top:50px;
+  border-style: groove;
+}
+
+.writeForm {
+  position: relative;
+  margin-left:-150px;
+}
+
+.writeFormGroup {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  /* background-color: brown; */
+}
+
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: rgb(129, 125, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width:500px;
+ 
+}
+.writeText {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width:500px;
+ 
+}
+
+.writeInput::placeholder {
+  color: rgb(189, 185, 185);
+  font-weight: 400;
+}
+
+.writeInput:focus {
+  outline-style: none;
+}
+
+.writeText {
+  width: 750px;
+  height:50px;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width:600px) {
+  
+  .mai{
+    width:250px;
+    /* background-color:aqua; */
+    margin-left:110px;
+    height:500px;
+    margin-top:50px;
+    border-style: groove;
+  }
+  .writeImg {
+    margin-left: 0px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width:180px;
+   
+  }
+  .writeSubmit {
+    position: absolute;
+    top: 160px;
+    right: 200px;
+  }
+}
